@@ -45,7 +45,6 @@ const Sidebar = () => {
             Created by{" "}
             <a
                 className="text-[#787878] font-medium transition-all duration-300 hover:text-black"
-                // href="https://themeforest.net/user/Codeefly"
                 target="_blank"
             >
               Tianyin Zhang
