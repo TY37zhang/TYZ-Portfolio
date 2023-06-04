@@ -6,13 +6,13 @@ const Sidebar = () => {
   return (
     <div className="leftpart w-[450px] h-[100vh] fixed flex items-center z-[12] px-[100px] py-[0px] bg-white">
       <div className="leftpart_inner w-full h-auto">
-        <div className="logo" data-type="text">
+        <div className="logo" data-type="image">
           {" "}
           {/* You can use image or text as logo. data-type values are: "image" and "text" */}
           <a href="#">
             <img
               className="max-w-[150px]"
-              src="assets/img/logo/dark.png"
+              src="assets/img/logo/TianyinZhang-Logo.png"
               alt="image"
             />
             <h3 className="font-poppins font-black text-[31px] tracking-[5px]">

@@ -7,15 +7,17 @@ import SectionTitle from "./SectionTitle";
 const detailData = [
   {
     id: 1,
-    thumbnail: "assets/img/portfolio/7.jpg",
-    title: "Selena Gomez",
+    thumbnail: "assets/img/portfolio/YT-logo-noBG.png",
+    title: "Personal Electric Vehicle Review",
     text: [
-      "We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible. Building mockups strikes the ideal balance between true-life representation of the end product and ease of modification.",
-      "Mockups are useful both for the creative phase of the project - for instance when you're trying to figure out your user flows or the proper visual hierarchy - and the production phase when they will represent the target product. Making mockups a part of your creative and development process allows you to quickly and easily ideate.",
+      "Personal Electric Vehicles are a new and exciting way to get around the city. They are a great alternative to cars and public transport, and they are more environmentally friendly than other forms of transportations.",
+      "My interests sparked back in 2019, when I first landed in NYC, the car traffic is so heavy all the time, and MTA always come with delays and service cancellation. So, I gave PEV a try, which started my journey with Electric Skateboards and Electric Unicycles.",
+      "As someone who rides PEV daily, I expanded my connection with the manufactures, which they supported me to do reviews on their products. I was able to help the innovation in the industry, providing my input on the products as a experienced rider."
     ],
-    client: "Alvaro Morata",
-    date: "October 22, 2022",
+    client: "N/A",
+    date: "March 2021 - Present",
     category: "Detail",
+    website:<a href={'https://www.youtube.com/@AKA_TY37'} target={"youtube"}>Youtube</a>,
     share: [
       {
         id: 1,
@@ -38,20 +40,24 @@ const detailData = [
         link: "https://www.linkedin.com/",
       },
     ],
-    bigImage: "assets/img/portfolio/1.jpg",
-    images: ["assets/img/portfolio/2.jpg", "assets/img/portfolio/3.jpg"],
+    bigImage: "assets/img/portfolio/PEV-Review-1.jpg",
+    images: ["assets/img/portfolio/PEV-Review-2.jpg", "assets/img/portfolio/PEV-Review-3.jpg"],
   },
   {
     id: 2,
-    thumbnail: "assets/img/portfolio/8.jpg",
-    title: "Ave Simone",
+    thumbnail: "assets/img/portfolio/pevnyc-logo.jpg",
+    title: "PEV NYC",
     text: [
-      "We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible. Building mockups strikes the ideal balance between true-life representation of the end product and ease of modification.",
-      "Mockups are useful both for the creative phase of the project - for instance when you're trying to figure out your user flows or the proper visual hierarchy - and the production phase when they will represent the target product. Making mockups a part of your creative and development process allows you to quickly and easily ideate.",
+      "PEV NYC is a non-profit group I founded since October 2021. The goal for the group is bring Personal Electric Vehicle riders together, providing a friendly, inclusive, and positive community to the local NYC hobbyists.",
+      "The group is actively managed by me and other hand-picked moderators, we actively host events such as group rides, group buys, and other activities to bring the community together.",
+      "One key aspect of the PEV NYC is that we host new product demos from the manufactures as they release them, so the riders can try out the new products before they purchase them.",
+      "We also provide a platform for riders to share their experiences, and help each other out with technical issues.",
+      "The group is currently at 180+ members and growing, and the moderating team is planning to let the group grow naturally for a healthier growth."
     ],
-    client: "Alvaro Morata",
-    date: "October 22, 2022",
+    client: "N/A",
+    date: "October 2021 - Present",
     category: "Detail",
+    website:<a href={"https://www.pevnyc.org"} target={"pevnyc"}>pevnyc.org</a>,
     share: [
       {
         id: 1,
@@ -74,8 +80,46 @@ const detailData = [
         link: "https://www.linkedin.com/",
       },
     ],
-    bigImage: "assets/img/portfolio/1.jpg",
-    images: ["assets/img/portfolio/2.jpg", "assets/img/portfolio/3.jpg"],
+    bigImage: "assets/img/portfolio/pevnyc-big-img.jpg",
+    images: ["assets/img/portfolio/pevnyc-img-1.jpg", "assets/img/portfolio/pevnyc-img-2.jpg"],
+  },
+  {
+    id: 3,
+    thumbnail: "assets/img/portfolio/photography.jpeg",
+    title: "Freelance Photography",
+    text: [
+      "I started photography as a hobby back in childhood, and I have been actively shooting since 2021. I have been shooting for events, portraits, and products, as well as pets.",
+      "My specialty is shooting with natural light, and I enjoy shooting pets and environmental portraits the most. Motion Blur as well as Bokeh are my favorite effects to play with when shooting, as they both serve the purpose of popping out the subject from the image.",
+      "I am currently shooting with Sony Alpha system with the Sony A7IV, and my go to focal length is either 28mm or 35mm. I also enjoy shooting with my 85mm for portraits, and I am looking into expanding my lens collection with ultra-wide zoom lens and telephoto zoom lens.",
+    ],
+    client: "Multiple",
+    date: "May 2021 - Present",
+    category: "Detail",
+    website:<a href={"https://www.instagram.com/aka_ty37/"} target={"instagram"}>Instagram</a>,
+    share: [
+      {
+        id: 1,
+        iconName: "icon-facebook-squared",
+        link: "https://www.facebook.com/",
+      },
+      {
+        id: 2,
+        iconName: "icon-twitter-squared",
+        link: "https://twitter.com/",
+      },
+      {
+        id: 3,
+        iconName: "icon-behance-squared",
+        link: "https://www.behance.net/",
+      },
+      {
+        id: 4,
+        iconName: "icon-linkedin-squared",
+        link: "https://www.linkedin.com/",
+      },
+    ],
+    bigImage: "assets/img/portfolio/photography-img-2.jpg",
+    images: ["assets/img/portfolio/photography-img-1.jpg", "assets/img/portfolio/photography-img-3.jpg"],
   },
 ];
 const Portfolio = () => {
@@ -127,15 +171,15 @@ const Portfolio = () => {
                       All
                     </a>
                   </li>
-                  <li className="mr-[25px] inline-block">
-                    <a
-                      className="text-[#767676] inline-block font-medium font-montserrat transition-all duration-300 hover:text-black"
-                      href="#"
-                      onClick={handleFilterKeyChange("vimeo")}
-                    >
-                      Vimeo
-                    </a>
-                  </li>
+                  {/*<li className="mr-[25px] inline-block">*/}
+                  {/*  <a*/}
+                  {/*    className="text-[#767676] inline-block font-medium font-montserrat transition-all duration-300 hover:text-black"*/}
+                  {/*    href="#"*/}
+                  {/*    onClick={handleFilterKeyChange("vimeo")}*/}
+                  {/*  >*/}
+                  {/*    Vimeo*/}
+                  {/*  </a>*/}
+                  {/*</li>*/}
                   <li className="mr-[25px] inline-block">
                     <a
                       className="text-[#767676] inline-block font-medium font-montserrat transition-all duration-300 hover:text-black"
@@ -145,15 +189,15 @@ const Portfolio = () => {
                       Youtube
                     </a>
                   </li>
-                  <li className="mr-[25px] inline-block">
-                    <a
-                      className="text-[#767676] inline-block font-medium font-montserrat transition-all duration-300 hover:text-black"
-                      href="#"
-                      onClick={handleFilterKeyChange("soundcloud")}
-                    >
-                      Soundcloud
-                    </a>
-                  </li>
+                  {/*<li className="mr-[25px] inline-block">*/}
+                  {/*  <a*/}
+                  {/*    className="text-[#767676] inline-block font-medium font-montserrat transition-all duration-300 hover:text-black"*/}
+                  {/*    href="#"*/}
+                  {/*    onClick={handleFilterKeyChange("soundcloud")}*/}
+                  {/*  >*/}
+                  {/*    Soundcloud*/}
+                  {/*  </a>*/}
+                  {/*</li>*/}
                   <li className="mr-[25px] inline-block">
                     <a
                       className="text-[#767676] inline-block font-medium font-montserrat transition-all duration-300 hover:text-black"
@@ -178,25 +222,25 @@ const Portfolio = () => {
           </div>
           <div className="list_wrapper w-full h-auto clear-both float-left">
             <ul className="portfolio_list gallery_zoom ml-[-40px] list-none">
-              <li className="vimeo mb-[40px] float-left w-1/3 pl-[40px] item__">
+              <li className="youtube mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
                     className="entry tokyo_tm_portfolio_animation_wrap"
-                    data-title="Teresa Butler"
-                    data-category="Vimeo"
+                    data-title="NYC Esk8 Street Bomb"
+                    data-category="Youtube"
                   >
                     <a
-                      className="popup-vimeo"
-                      href="https://vimeo.com/337293658"
+                      className="popup-youtube"
+                      href="https://www.youtube.com/watch?v=1sjxXucqU_8"
                     >
                       <img
-                        className="opacity-0 min-w-full"
-                        src="assets/img/thumbs/1-1.jpg"
+                        className="opacity-100 "
+                        src="assets/img/thumbs/Street-Ride-thumb.jpg"
                         alt="image"
                       />
                       <div
                         className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/5.jpg"
+                        data-img-url="assets/img/portfolio/Street-Ride-thumb.jpg"
                       />
                     </a>
                   </div>
@@ -206,104 +250,56 @@ const Portfolio = () => {
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
                     className="entry tokyo_tm_portfolio_animation_wrap"
-                    data-title="Ashley Flores"
+                    data-title="Esk8 Review: Ownboard Bamboo Zeus Pro"
                     data-category="Youtube"
                   >
                     <a
                       className="popup-youtube"
-                      href="https://www.youtube.com/watch?v=7e90gBu4pas"
+                      href="https://www.youtube.com/watch?v=ZmV2q2B1Y1w&t=42s"
                     >
                       <img
                         className="opacity-0 min-w-full"
-                        src="assets/img/thumbs/1-1.jpg"
+                        src="assets/img/thumbs/B-Zeus-Pro-review.jpeg"
                         alt="image"
                       />
                       <div
                         className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/6.jpg"
+                        data-img-url="assets/img/portfolio/B-Zeus-Pro-Review.jpeg"
                       />
                     </a>
                   </div>
                 </div>
               </li>
-              <li className="soundcloud mb-[40px] float-left w-1/3 pl-[40px] item__">
+              <li className="youtube mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
                     className="entry tokyo_tm_portfolio_animation_wrap"
-                    data-title="Derek Smith"
-                    data-category="Soundcloud"
+                    data-title="Skateboard Overflow NYC"
+                    data-category="Youtube"
                   >
                     <a
-                      className="soundcloude_link mfp-iframe audio"
-                      href="https://w.soundcloud.com/player/?visual=true&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F159967086&show_artwork=true&maxwidth=1020&maxheight=1000&auto_play=1"
+                      className="popup-youtube"
+                      href="https://www.youtube.com/watch?v=DK-rnYJXYkQ&t=115s"
                     >
                       <img
                         className="opacity-0 min-w-full"
-                        src="assets/img/thumbs/1-1.jpg"
+                        src="assets/img/thumbs/Overflow-thumbnail.jpg"
                         alt="image"
                       />
                       <div
                         className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/4.jpg"
+                        data-img-url="assets/img/portfolio/Overflow-thumbnail.jpg"
                       />
                     </a>
                   </div>
                 </div>
               </li>
-              <li className="image mb-[40px] float-left w-1/3 pl-[40px] item__">
-                <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
-                  <div
-                    className="entry tokyo_tm_portfolio_animation_wrap"
-                    data-title="Gloria Jenkins"
-                    data-category="Image"
-                  >
-                    <a className="zoom" href="assets/img/portfolio/3.jpg">
-                      <img
-                        className="opacity-0 min-w-full"
-                        src="assets/img/thumbs/1-1.jpg"
-                        alt="image"
-                      />
-                      <div
-                        className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/3.jpg"
-                      />
-                    </a>
-                  </div>
-                </div>
-              </li>
+              
               <li className="detail mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
                     className="entry tokyo_tm_portfolio_animation_wrap"
-                    data-title="Selena Gomez"
-                    data-category="Detail"
-                  >
-                    <a
-                      className="popup_info"
-                      href="#"
-                      onClick={() => {
-                        setPortfolioDetailsModal(detailData[0]);
-                        modalToggle(true);
-                      }}
-                    >
-                      <img
-                        className="opacity-0 min-w-full"
-                        src="assets/img/thumbs/1-1.jpg"
-                        alt="image"
-                      />
-                      <div
-                        className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/7.jpg"
-                      />
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li className="detail mb-[40px] float-left w-1/3 pl-[40px] item__">
-                <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
-                  <div
-                    className="entry tokyo_tm_portfolio_animation_wrap"
-                    data-title="Ave Simone"
+                    data-title="PEV NYC"
                     data-category="Detail"
                   >
                     <a
@@ -321,7 +317,106 @@ const Portfolio = () => {
                       />
                       <div
                         className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/8.jpg"
+                        data-img-url="assets/img/portfolio/pevnyc-logo.jpg"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li className="detail mb-[40px] float-left w-1/3 pl-[40px] item__">
+                <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
+                  <div
+                      className="entry tokyo_tm_portfolio_animation_wrap"
+                      data-title="Personal Electric Vehicle Review"
+                      data-category="Detail"
+                  >
+                    <a
+                        className="popup_info"
+                        href="#"
+                        onClick={() => {
+                          setPortfolioDetailsModal(detailData[0]);
+                          modalToggle(true);
+                        }}
+                    >
+                      <img
+                          className="opacity-0 min-w-full"
+                          src="assets/img/thumbs/1-1.jpg"
+                          alt="image"
+                      />
+                      <div
+                          className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                          data-img-url="assets/img/portfolio/YT-logo-2.png"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li className="detail mb-[40px] float-left w-1/3 pl-[40px] item__">
+                <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
+                  <div
+                      className="entry tokyo_tm_portfolio_animation_wrap"
+                      data-title="Photography"
+                      data-category="Detail"
+                  >
+                    <a
+                        className="popup_info"
+                        href="#"
+                        onClick={() => {
+                          setPortfolioDetailsModal(detailData[2]);
+                          modalToggle(true);
+                        }}
+                    >
+                      <img
+                          className="opacity-0 min-w-full"
+                          src="assets/img/thumbs/1-1.jpg"
+                          alt="image"
+                      />
+                      <div
+                          className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                          data-img-url="assets/img/portfolio/photography.jpeg"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </li>
+              
+              <li className="image mb-[40px] float-left w-1/3 pl-[40px] item__">
+                <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
+                  <div
+                      className="entry tokyo_tm_portfolio_animation_wrap"
+                      data-title="Pidan"
+                      data-category="Image"
+                  >
+                    <a className="zoom" href="assets/img/portfolio/images/pidan-1.jpg">
+                      <img
+                          className="opacity-0 min-w-full"
+                          src="assets/img/thumbs/1-1.jpg"
+                          alt="image"
+                      />
+                      <div
+                          className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                          data-img-url="assets/img/portfolio/images/pidan-1.jpg"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li className="image mb-[40px] float-left w-1/3 pl-[40px] item__">
+                <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
+                  <div
+                      className="entry tokyo_tm_portfolio_animation_wrap"
+                      data-title="Pidan"
+                      data-category="Image"
+                  >
+                    <a className="zoom" href="assets/img/portfolio/images/aoliao-1.jpg">
+                      <img
+                          className="opacity-0 min-w-full"
+                          src="assets/img/thumbs/1-1.jpg"
+                          alt="image"
+                      />
+                      <div
+                          className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                          data-img-url="assets/img/portfolio/images/aoliao-1.jpg"
                       />
                     </a>
                   </div>
