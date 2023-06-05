@@ -18,16 +18,17 @@ const ContactForm = () => {
     } else {
       emailjs
         .send(
-          "service_seruhwu", // service id
-          "template_21aw58z", // template id
+          "service_r6ayqtt", // service id
+          "template_lx8q0ln", // template id
           mailData,
-          "Q3pccdLZhU-mZT7tQ" // public api
+          "dt1hZWnYthxyXi-Sa" // public api
         )
         .then(
           (response) => {
             setError(false);
             clearError();
             setMailData({ name: "", email: "", message: "" });
+            console.log("message sent");
           },
           (err) => {
             console.log(err.text);
@@ -62,7 +63,7 @@ const ContactForm = () => {
           <ul className="list-none">
             <li className="w-full mb-[30px] float-left">
               <input
-                name="name"
+                name="user_name"
                 onChange={(e) => onChange(e)}
                 value={name}
                 id="name"
@@ -72,7 +73,7 @@ const ContactForm = () => {
             </li>
             <li className="w-full mb-[30px] float-left">
               <input
-                name="email"
+                name="user_email"
                 onChange={(e) => onChange(e)}
                 value={email}
                 id="email"
