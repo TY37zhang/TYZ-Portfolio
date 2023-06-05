@@ -14,7 +14,7 @@ const Mobile = () => {
             <a href="#">
               <img
                 className="max-w-[100px] max-h-[40px]"
-                src="assets/img/logo/dark.png"
+                src="assets/img/logo/TianyinZhang-Logo.png"
                 alt="image"
               />
               <h3 className="font-black font-poppins text-[25px] tracking-[4px]">
