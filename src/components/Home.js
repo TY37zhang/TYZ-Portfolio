@@ -38,7 +38,7 @@ const Home = () => {
                 Tianyin <span>Zhang</span>
               </h3>
               <p className="job font-montserrat font-medium max-w-[450px] mb-[25px]">
-                I am a newly graduated student at New York University, majoring in Computer Science, with a minor in Web Programming and Applications.
+                I am a newly graduated student from New York University, majoring in Computer Science, with a minor in Web Programming and Applications.
               </p>
               <div className="social w-full float-left">
                 <ul className="m-0 list-none">
