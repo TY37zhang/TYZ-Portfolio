@@ -7,7 +7,7 @@ import SectionTitle from "./SectionTitle";
 const detailData = [
   {
     id: 1,
-    thumbnail: "assets/img/portfolio/YT-logo-noBG.png",
+    thumbnail: "assets/img/portfolio/yt-logo-nobg.png",
     title: "Personal Electric Vehicle Review",
     text: [
       "Personal Electric Vehicles are a new and exciting way to get around the city. They are a great alternative to cars and public transport, and they are more environmentally friendly than other forms of transportations.",
@@ -40,8 +40,8 @@ const detailData = [
         link: "https://www.linkedin.com/",
       },
     ],
-    bigImage: "assets/img/portfolio/PEV-Review-1.jpg",
-    images: ["assets/img/portfolio/PEV-Review-2.jpg", "assets/img/portfolio/PEV-Review-3.jpg"],
+    bigImage: "assets/img/portfolio/pev-review-1.jpg",
+    images: ["assets/img/portfolio/pev-review-2.jpg", "assets/img/portfolio/pev-review-3.jpg"],
   },
   {
     id: 2,
@@ -235,12 +235,12 @@ const Portfolio = () => {
                     >
                       <img
                         className="opacity-100 "
-                        src="assets/img/thumbs/Street-Ride-thumb.jpg"
+                        src="assets/img/thumbs/street-ride-thumb.jpg"
                         alt="image"
                       />
                       <div
                         className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/Street-Ride-thumb.jpg"
+                        data-img-url="assets/img/portfolio/street-ride-thumb.jpg"
                       />
                     </a>
                   </div>
@@ -259,12 +259,12 @@ const Portfolio = () => {
                     >
                       <img
                         className="opacity-0 min-w-full"
-                        src="assets/img/thumbs/B-Zeus-Pro-review.jpeg"
+                        src="assets/img/thumbs/b-zeus-pro-review.jpeg"
                         alt="image"
                       />
                       <div
                         className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/B-Zeus-Pro-Review.jpeg"
+                        data-img-url="assets/img/portfolio/b-zeus-pro-review.jpeg"
                       />
                     </a>
                   </div>
@@ -283,12 +283,12 @@ const Portfolio = () => {
                     >
                       <img
                         className="opacity-0 min-w-full"
-                        src="assets/img/thumbs/Overflow-thumbnail.jpg"
+                        src="assets/img/thumbs/overflow-thumbnail.jpg"
                         alt="image"
                       />
                       <div
                         className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/Overflow-thumbnail.jpg"
+                        data-img-url="assets/img/portfolio/overflow-thumbnail.jpg"
                       />
                     </a>
                   </div>
@@ -345,7 +345,7 @@ const Portfolio = () => {
                       />
                       <div
                           className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                          data-img-url="assets/img/portfolio/YT-logo-2.png"
+                          data-img-url="assets/img/portfolio/yt-logo-2.png"
                       />
                     </a>
                   </div>
