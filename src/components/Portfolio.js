@@ -259,12 +259,12 @@ const Portfolio = () => {
                     >
                       <img
                         className="opacity-0 min-w-full"
-                        src="assets/img/thumbs/b-zeus-pro-review.jpeg"
+                        src="assets/img/thumbs/bzeus-pro-review.jpeg"
                         alt="image"
                       />
                       <div
                         className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                        data-img-url="assets/img/portfolio/b-zeus-pro-review.jpeg"
+                        data-img-url="assets/img/portfolio/bzeus-pro-review.jpeg"
                       />
                     </a>
                   </div>
