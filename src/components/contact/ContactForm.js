@@ -63,7 +63,7 @@ const ContactForm = () => {
           <ul className="list-none">
             <li className="w-full mb-[30px] float-left">
               <input
-                name="user_name"
+                name="name"
                 onChange={(e) => onChange(e)}
                 value={name}
                 id="name"
@@ -73,7 +73,7 @@ const ContactForm = () => {
             </li>
             <li className="w-full mb-[30px] float-left">
               <input
-                name="user_email"
+                name="email"
                 onChange={(e) => onChange(e)}
                 value={email}
                 id="email"
