@@ -405,10 +405,10 @@ const Portfolio = () => {
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
                       className="entry tokyo_tm_portfolio_animation_wrap"
-                      data-title="Pidan"
+                      data-title="Brownie"
                       data-category="Image"
                   >
-                    <a className="zoom" href="assets/img/portfolio/images/aoliao-1.jpg">
+                    <a className="zoom" href="assets/img/portfolio/images/brownie-1.jpg">
                       <img
                           className="opacity-0 min-w-full"
                           src="assets/img/thumbs/1-1.jpg"
@@ -416,7 +416,154 @@ const Portfolio = () => {
                       />
                       <div
                           className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                          data-img-url="assets/img/portfolio/images/aoliao-1.jpg"
+                          data-img-url="assets/img/portfolio/images/brownie-1.jpg"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li className="image mb-[40px] float-left w-1/3 pl-[40px] item__">
+                <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
+                  <div
+                      className="entry tokyo_tm_portfolio_animation_wrap"
+                      data-title="DuoDuo"
+                      data-category="Image"
+                  >
+                    <a className="zoom" href="assets/img/portfolio/images/duoduo-1.jpg">
+                      <img
+                          className="opacity-0 min-w-full"
+                          src="assets/img/thumbs/1-1.jpg"
+                          alt="image"
+                      />
+                      <div
+                          className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                          data-img-url="assets/img/portfolio/images/duoduo-1.jpg"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li className="image mb-[40px] float-left w-1/3 pl-[40px] item__">
+                <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
+                  <div
+                      className="entry tokyo_tm_portfolio_animation_wrap"
+                      data-title="NaiGai"
+                      data-category="Image"
+                  >
+                    <a className="zoom" href="assets/img/portfolio/images/naigai-1.jpg">
+                      <img
+                          className="opacity-0 min-w-full"
+                          src="assets/img/thumbs/1-1.jpg"
+                          alt="image"
+                      />
+                      <div
+                          className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                          data-img-url="assets/img/portfolio/images/naigai-1.jpg"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li className="image mb-[40px] float-left w-1/3 pl-[40px] item__">
+                <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
+                  <div
+                      className="entry tokyo_tm_portfolio_animation_wrap"
+                      data-title="Hudson Yard"
+                      data-category="Image"
+                  >
+                    <a className="zoom" href="assets/img/portfolio/images/hudson-yard-1.jpg">
+                      <img
+                          className="opacity-0 min-w-full"
+                          src="assets/img/thumbs/1-1.jpg"
+                          alt="image"
+                      />
+                      <div
+                          className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                          data-img-url="assets/img/portfolio/images/hudson-yard-1.jpg"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li className="image mb-[40px] float-left w-1/3 pl-[40px] item__">
+                <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
+                  <div
+                      className="entry tokyo_tm_portfolio_animation_wrap"
+                      data-title="Street Photography"
+                      data-category="Image"
+                  >
+                    <a className="zoom" href="assets/img/portfolio/images/StreetPhoto-1.jpg">
+                      <img
+                          className="opacity-0 min-w-full"
+                          src="assets/img/thumbs/1-1.jpg"
+                          alt="image"
+                      />
+                      <div
+                          className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                          data-img-url="assets/img/portfolio/images/StreetPhoto-1.jpg"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li className="image mb-[40px] float-left w-1/3 pl-[40px] item__">
+                <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
+                  <div
+                      className="entry tokyo_tm_portfolio_animation_wrap"
+                      data-title="Street Photography"
+                      data-category="Image"
+                  >
+                    <a className="zoom" href="assets/img/portfolio/images/StreetPhoto-2.jpg">
+                      <img
+                          className="opacity-0 min-w-full"
+                          src="assets/img/thumbs/1-1.jpg"
+                          alt="image"
+                      />
+                      <div
+                          className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                          data-img-url="assets/img/portfolio/images/StreetPhoto-2.jpg"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li className="image mb-[40px] float-left w-1/3 pl-[40px] item__">
+                <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
+                  <div
+                      className="entry tokyo_tm_portfolio_animation_wrap"
+                      data-title="Street Photography"
+                      data-category="Image"
+                  >
+                    <a className="zoom" href="assets/img/portfolio/images/StreetPhoto-3.jpg">
+                      <img
+                          className="opacity-0 min-w-full"
+                          src="assets/img/thumbs/1-1.jpg"
+                          alt="image"
+                      />
+                      <div
+                          className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                          data-img-url="assets/img/portfolio/images/StreetPhoto-3.jpg"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li className="image mb-[40px] float-left w-1/3 pl-[40px] item__">
+                <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
+                  <div
+                      className="entry tokyo_tm_portfolio_animation_wrap"
+                      data-title="Street Photography"
+                      data-category="Image"
+                  >
+                    <a className="zoom" href="assets/img/portfolio/images/StreetPhoto-4.jpg">
+                      <img
+                          className="opacity-0 min-w-full"
+                          src="assets/img/thumbs/1-1.jpg"
+                          alt="image"
+                      />
+                      <div
+                          className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                          data-img-url="assets/img/portfolio/images/StreetPhoto-4.jpg"
                       />
                     </a>
                   </div>

@@ -65,9 +65,9 @@ const Intro = () => {
                 <span>
                   <a
                     className="text-[#767676] transition-all duration-300 hover:text-black"
-                    href="mailto:aka.ty37.nyc@gmail.com"
+                    href="mailto:aka_ty37@tianyinzhang.com"
                   >
-                    aka.ty37.nyc@gmail.com
+                    aka_ty37@tianyinzhang.com
                   </a>
                 </span>
               </li>
