@@ -68,6 +68,12 @@ const DetailsModal = () => {
                                 </span>
                                 <span>{portfolioDetailsModal.website}</span>
                             </li>
+                            <li className="mb-[8px] w-full float-left">
+                                <span className="first font-bold block text-black mb-[3px]">
+                                    Book Me For a Shoot
+                                </span>
+                                <span>{portfolioDetailsModal.url}</span>
+                            </li>
                             {/*<li className="w-full float-left">*/}
                             {/*  <span className="first font-bold block text-black mb-[3px]">*/}
                             {/*    Share*/}

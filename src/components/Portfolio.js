@@ -96,6 +96,7 @@ const detailData = [
     date: "May 2021 - Present",
     category: "Detail",
     website:<a href={"https://www.instagram.com/aka_ty37/"} target={"instagram"}>Instagram</a>,
+    url: <a href={"https://www.fiverr.com/s2/c8efc8617b"} target={"fiverr"}>Fiverr</a>,
     share: [
       {
         id: 1,

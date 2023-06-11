@@ -956,6 +956,9 @@ input[type="button"] {
 .icon-comment-alt:before {
   content: "\e85b";
 } /* '' */
+.icon-fiverr-1:before{
+  content: "\f280";
+}
 .icon-up-circled2:before {
   content: "\e85c";
 } /* '' */

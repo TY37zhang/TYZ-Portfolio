@@ -15,6 +15,11 @@ const socialIcon = [
     iconName: "icon-linkedin-squared",
     link: "https://www.linkedin.com/in/tianyinzhang37/",
   },
+  {
+    id: 4,
+    iconName: "icon-fiverr-1",
+    link: "https://www.fiverr.com/ty_37_zhang",
+  },
 ];
 const Home = () => {
   return (
