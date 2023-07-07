@@ -69,9 +69,9 @@ const Intro = () => {
                 <span>
                   <a
                     className="text-[#767676] transition-all duration-300 hover:text-black"
-                    href="mailto:aka_ty37@tianyinzhang.com"
+                    href="mailto:hi@tianyinzhang.com"
                   >
-                    aka_ty37@tianyinzhang.com
+                    hi@tianyinzhang.com
                   </a>
                 </span>
               </li>
@@ -82,7 +82,7 @@ const Intro = () => {
                 <span>
                   <a
                     className="text-[#767676] transition-all duration-300 hover:text-black"
-                    href="tel:+77 022 177 05 05"
+                    href="tel:+1 408 608 4697"
                   >
                     +1 408 609 4697
                   </a>
