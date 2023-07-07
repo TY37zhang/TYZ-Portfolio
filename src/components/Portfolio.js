@@ -8,16 +8,20 @@ const detailData = [
   {
     id: 1,
     thumbnail: "assets/img/portfolio/yt-logo-nobg.png",
-    title: "Personal Electric Vehicle Review",
+    title: "Youtube Channel",
     text: [
       "Personal Electric Vehicles are a new and exciting way to get around the city. They are a great alternative to cars and public transport, and they are more environmentally friendly than other forms of transportations.",
       "My interests sparked back in 2019, when I first landed in NYC, the car traffic is so heavy all the time, and MTA always come with delays and service cancellation. So, I gave PEV a try, which started my journey with Electric Skateboards and Electric Unicycles.",
-      "As someone who rides PEV daily, I expanded my connection with the manufactures, which they supported me to do reviews on their products. I was able to help the innovation in the industry, providing my input on the products as a experienced rider."
+      "As someone who rides PEV daily, I expanded my connection with the manufactures, which they supported me to do reviews on their products. I was able to help the innovation in the industry, providing my input on the products as a experienced rider.",
     ],
     client: "N/A",
     date: "March 2021 - Present",
     category: "Detail",
-    website:<a href={'https://www.youtube.com/@AKA_TY37'} target={"youtube"}>Youtube</a>,
+    website: (
+      <a href={"https://www.youtube.com/@AKA_TY37"} target={"youtube"}>
+        Youtube
+      </a>
+    ),
     share: [
       {
         id: 1,
@@ -41,7 +45,10 @@ const detailData = [
       },
     ],
     bigImage: "assets/img/portfolio/pev-review-1.jpg",
-    images: ["assets/img/portfolio/pev-review-2.jpg", "assets/img/portfolio/pev-review-3.jpg"],
+    images: [
+      "assets/img/portfolio/pev-review-2.jpg",
+      "assets/img/portfolio/pev-review-3.jpg",
+    ],
   },
   {
     id: 2,
@@ -52,12 +59,16 @@ const detailData = [
       "The group is actively managed by me and other hand-picked moderators, we actively host events such as group rides, group buys, and other activities to bring the community together.",
       "One key aspect of the PEV NYC is that we host new product demos from the manufactures as they release them, so the riders can try out the new products before they purchase them.",
       "We also provide a platform for riders to share their experiences, and help each other out with technical issues.",
-      "The group is currently at 180+ members and growing, and the moderating team is planning to let the group grow naturally for a healthier growth."
+      "The group is currently at 180+ members and growing, and the moderating team is planning to let the group grow naturally for a healthier growth.",
     ],
     client: "N/A",
     date: "October 2021 - Present",
     category: "Detail",
-    website:<a href={"https://www.pevnyc.org"} target={"pevnyc"}>pevnyc.org</a>,
+    website: (
+      <a href={"https://www.pevnyc.org"} target={"pevnyc"}>
+        pevnyc.org
+      </a>
+    ),
     share: [
       {
         id: 1,
@@ -81,7 +92,10 @@ const detailData = [
       },
     ],
     bigImage: "assets/img/portfolio/pevnyc-big-img.jpg",
-    images: ["assets/img/portfolio/pevnyc-img-1.jpg", "assets/img/portfolio/pevnyc-img-2.jpg"],
+    images: [
+      "assets/img/portfolio/pevnyc-img-1.jpg",
+      "assets/img/portfolio/pevnyc-img-2.jpg",
+    ],
   },
   {
     id: 3,
@@ -95,8 +109,16 @@ const detailData = [
     client: "Multiple",
     date: "May 2021 - Present",
     category: "Detail",
-    website:<a href={"https://www.instagram.com/aka_ty37/"} target={"instagram"}>Instagram</a>,
-    url: <a href={"https://www.fiverr.com/s2/c8efc8617b"} target={"fiverr"}>Fiverr</a>,
+    website: (
+      <a href={"https://www.instagram.com/aka_ty37/"} target={"instagram"}>
+        Instagram
+      </a>
+    ),
+    url: (
+      <a href={"https://www.fiverr.com/s2/c8efc8617b"} target={"fiverr"}>
+        Fiverr
+      </a>
+    ),
     share: [
       {
         id: 1,
@@ -120,7 +142,10 @@ const detailData = [
       },
     ],
     bigImage: "assets/img/portfolio/photography-img-2.jpg",
-    images: ["assets/img/portfolio/photography-img-1.jpg", "assets/img/portfolio/photography-img-3.jpg"],
+    images: [
+      "assets/img/portfolio/photography-img-1.jpg",
+      "assets/img/portfolio/photography-img-3.jpg",
+    ],
   },
 ];
 const Portfolio = () => {
@@ -295,7 +320,7 @@ const Portfolio = () => {
                   </div>
                 </div>
               </li>
-              
+
               <li className="detail mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
@@ -327,26 +352,26 @@ const Portfolio = () => {
               <li className="detail mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
-                      className="entry tokyo_tm_portfolio_animation_wrap"
-                      data-title="Personal Electric Vehicle Review"
-                      data-category="Detail"
+                    className="entry tokyo_tm_portfolio_animation_wrap"
+                    data-title="Personal Electric Vehicle Review"
+                    data-category="Detail"
                   >
                     <a
-                        className="popup_info"
-                        href="#"
-                        onClick={() => {
-                          setPortfolioDetailsModal(detailData[0]);
-                          modalToggle(true);
-                        }}
+                      className="popup_info"
+                      href="#"
+                      onClick={() => {
+                        setPortfolioDetailsModal(detailData[0]);
+                        modalToggle(true);
+                      }}
                     >
                       <img
-                          className="opacity-0 min-w-full"
-                          src="assets/img/thumbs/1-1.jpg"
-                          alt="image"
+                        className="opacity-0 min-w-full"
+                        src="assets/img/thumbs/1-1.jpg"
+                        alt="image"
                       />
                       <div
-                          className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                          data-img-url="assets/img/portfolio/yt-logo-2.png"
+                        className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                        data-img-url="assets/img/portfolio/yt-logo-2.png"
                       />
                     </a>
                   </div>
@@ -355,69 +380,51 @@ const Portfolio = () => {
               <li className="detail mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
-                      className="entry tokyo_tm_portfolio_animation_wrap"
-                      data-title="Photography"
-                      data-category="Detail"
+                    className="entry tokyo_tm_portfolio_animation_wrap"
+                    data-title="Photography"
+                    data-category="Detail"
                   >
                     <a
-                        className="popup_info"
-                        href="#"
-                        onClick={() => {
-                          setPortfolioDetailsModal(detailData[2]);
-                          modalToggle(true);
-                        }}
+                      className="popup_info"
+                      href="#"
+                      onClick={() => {
+                        setPortfolioDetailsModal(detailData[2]);
+                        modalToggle(true);
+                      }}
                     >
                       <img
-                          className="opacity-0 min-w-full"
-                          src="assets/img/thumbs/1-1.jpg"
-                          alt="image"
+                        className="opacity-0 min-w-full"
+                        src="assets/img/thumbs/1-1.jpg"
+                        alt="image"
                       />
                       <div
-                          className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                          data-img-url="assets/img/portfolio/photography.jpeg"
+                        className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                        data-img-url="assets/img/portfolio/photography.jpeg"
                       />
                     </a>
                   </div>
                 </div>
               </li>
-              
+
               <li className="image mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
-                      className="entry tokyo_tm_portfolio_animation_wrap"
-                      data-title="Pidan"
-                      data-category="Image"
+                    className="entry tokyo_tm_portfolio_animation_wrap"
+                    data-title="Pidan"
+                    data-category="Image"
                   >
-                    <a className="zoom" href="assets/img/portfolio/images/pidan-1.jpg">
+                    <a
+                      className="zoom"
+                      href="assets/img/portfolio/images/pidan-1.jpg"
+                    >
                       <img
-                          className="opacity-0 min-w-full"
-                          src="assets/img/thumbs/1-1.jpg"
-                          alt="image"
+                        className="opacity-0 min-w-full"
+                        src="assets/img/thumbs/1-1.jpg"
+                        alt="image"
                       />
                       <div
-                          className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                          data-img-url="assets/img/portfolio/images/pidan-1.jpg"
-                      />
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li className="image mb-[40px] float-left w-1/3 pl-[40px] item__">
-                <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
-                  <div
-                      className="entry tokyo_tm_portfolio_animation_wrap"
-                      data-title="Brownie"
-                      data-category="Image"
-                  >
-                    <a className="zoom" href="assets/img/portfolio/images/brownie-1.jpg">
-                      <img
-                          className="opacity-0 min-w-full"
-                          src="assets/img/thumbs/1-1.jpg"
-                          alt="image"
-                      />
-                      <div
-                          className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                          data-img-url="assets/img/portfolio/images/brownie-1.jpg"
+                        className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                        data-img-url="assets/img/portfolio/images/pidan-1.jpg"
                       />
                     </a>
                   </div>
@@ -426,19 +433,22 @@ const Portfolio = () => {
               <li className="image mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
-                      className="entry tokyo_tm_portfolio_animation_wrap"
-                      data-title="DuoDuo"
-                      data-category="Image"
+                    className="entry tokyo_tm_portfolio_animation_wrap"
+                    data-title="Brownie"
+                    data-category="Image"
                   >
-                    <a className="zoom" href="assets/img/portfolio/images/duoduo-1.jpg">
+                    <a
+                      className="zoom"
+                      href="assets/img/portfolio/images/brownie-1.jpg"
+                    >
                       <img
-                          className="opacity-0 min-w-full"
-                          src="assets/img/thumbs/1-1.jpg"
-                          alt="image"
+                        className="opacity-0 min-w-full"
+                        src="assets/img/thumbs/1-1.jpg"
+                        alt="image"
                       />
                       <div
-                          className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                          data-img-url="assets/img/portfolio/images/duoduo-1.jpg"
+                        className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                        data-img-url="assets/img/portfolio/images/brownie-1.jpg"
                       />
                     </a>
                   </div>
@@ -447,19 +457,22 @@ const Portfolio = () => {
               <li className="image mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
-                      className="entry tokyo_tm_portfolio_animation_wrap"
-                      data-title="NaiGai"
-                      data-category="Image"
+                    className="entry tokyo_tm_portfolio_animation_wrap"
+                    data-title="DuoDuo"
+                    data-category="Image"
                   >
-                    <a className="zoom" href="assets/img/portfolio/images/naigai-1.jpg">
+                    <a
+                      className="zoom"
+                      href="assets/img/portfolio/images/duoduo-1.jpg"
+                    >
                       <img
-                          className="opacity-0 min-w-full"
-                          src="assets/img/thumbs/1-1.jpg"
-                          alt="image"
+                        className="opacity-0 min-w-full"
+                        src="assets/img/thumbs/1-1.jpg"
+                        alt="image"
                       />
                       <div
-                          className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                          data-img-url="assets/img/portfolio/images/naigai-1.jpg"
+                        className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                        data-img-url="assets/img/portfolio/images/duoduo-1.jpg"
                       />
                     </a>
                   </div>
@@ -468,19 +481,22 @@ const Portfolio = () => {
               <li className="image mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
-                      className="entry tokyo_tm_portfolio_animation_wrap"
-                      data-title="Hudson Yard"
-                      data-category="Image"
+                    className="entry tokyo_tm_portfolio_animation_wrap"
+                    data-title="NaiGai"
+                    data-category="Image"
                   >
-                    <a className="zoom" href="assets/img/portfolio/images/hudson-yard-1.jpg">
+                    <a
+                      className="zoom"
+                      href="assets/img/portfolio/images/naigai-1.jpg"
+                    >
                       <img
-                          className="opacity-0 min-w-full"
-                          src="assets/img/thumbs/1-1.jpg"
-                          alt="image"
+                        className="opacity-0 min-w-full"
+                        src="assets/img/thumbs/1-1.jpg"
+                        alt="image"
                       />
                       <div
-                          className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                          data-img-url="assets/img/portfolio/images/hudson-yard-1.jpg"
+                        className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                        data-img-url="assets/img/portfolio/images/naigai-1.jpg"
                       />
                     </a>
                   </div>
@@ -489,19 +505,22 @@ const Portfolio = () => {
               <li className="image mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
-                      className="entry tokyo_tm_portfolio_animation_wrap"
-                      data-title="Street Photography"
-                      data-category="Image"
+                    className="entry tokyo_tm_portfolio_animation_wrap"
+                    data-title="Hudson Yard"
+                    data-category="Image"
                   >
-                    <a className="zoom" href="assets/img/portfolio/images/StreetPhoto-1.jpg">
+                    <a
+                      className="zoom"
+                      href="assets/img/portfolio/images/hudson-yard-1.jpg"
+                    >
                       <img
-                          className="opacity-0 min-w-full"
-                          src="assets/img/thumbs/1-1.jpg"
-                          alt="image"
+                        className="opacity-0 min-w-full"
+                        src="assets/img/thumbs/1-1.jpg"
+                        alt="image"
                       />
                       <div
-                          className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                          data-img-url="assets/img/portfolio/images/StreetPhoto-1.jpg"
+                        className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                        data-img-url="assets/img/portfolio/images/hudson-yard-1.jpg"
                       />
                     </a>
                   </div>
@@ -510,19 +529,22 @@ const Portfolio = () => {
               <li className="image mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
-                      className="entry tokyo_tm_portfolio_animation_wrap"
-                      data-title="Street Photography"
-                      data-category="Image"
+                    className="entry tokyo_tm_portfolio_animation_wrap"
+                    data-title="Street Photography"
+                    data-category="Image"
                   >
-                    <a className="zoom" href="assets/img/portfolio/images/StreetPhoto-2.jpg">
+                    <a
+                      className="zoom"
+                      href="assets/img/portfolio/images/StreetPhoto-1.jpg"
+                    >
                       <img
-                          className="opacity-0 min-w-full"
-                          src="assets/img/thumbs/1-1.jpg"
-                          alt="image"
+                        className="opacity-0 min-w-full"
+                        src="assets/img/thumbs/1-1.jpg"
+                        alt="image"
                       />
                       <div
-                          className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                          data-img-url="assets/img/portfolio/images/StreetPhoto-2.jpg"
+                        className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                        data-img-url="assets/img/portfolio/images/StreetPhoto-1.jpg"
                       />
                     </a>
                   </div>
@@ -531,19 +553,22 @@ const Portfolio = () => {
               <li className="image mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
-                      className="entry tokyo_tm_portfolio_animation_wrap"
-                      data-title="Street Photography"
-                      data-category="Image"
+                    className="entry tokyo_tm_portfolio_animation_wrap"
+                    data-title="Street Photography"
+                    data-category="Image"
                   >
-                    <a className="zoom" href="assets/img/portfolio/images/StreetPhoto-3.jpg">
+                    <a
+                      className="zoom"
+                      href="assets/img/portfolio/images/StreetPhoto-2.jpg"
+                    >
                       <img
-                          className="opacity-0 min-w-full"
-                          src="assets/img/thumbs/1-1.jpg"
-                          alt="image"
+                        className="opacity-0 min-w-full"
+                        src="assets/img/thumbs/1-1.jpg"
+                        alt="image"
                       />
                       <div
-                          className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                          data-img-url="assets/img/portfolio/images/StreetPhoto-3.jpg"
+                        className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                        data-img-url="assets/img/portfolio/images/StreetPhoto-2.jpg"
                       />
                     </a>
                   </div>
@@ -552,19 +577,46 @@ const Portfolio = () => {
               <li className="image mb-[40px] float-left w-1/3 pl-[40px] item__">
                 <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
                   <div
-                      className="entry tokyo_tm_portfolio_animation_wrap"
-                      data-title="Street Photography"
-                      data-category="Image"
+                    className="entry tokyo_tm_portfolio_animation_wrap"
+                    data-title="Street Photography"
+                    data-category="Image"
                   >
-                    <a className="zoom" href="assets/img/portfolio/images/StreetPhoto-4.jpg">
+                    <a
+                      className="zoom"
+                      href="assets/img/portfolio/images/StreetPhoto-3.jpg"
+                    >
                       <img
-                          className="opacity-0 min-w-full"
-                          src="assets/img/thumbs/1-1.jpg"
-                          alt="image"
+                        className="opacity-0 min-w-full"
+                        src="assets/img/thumbs/1-1.jpg"
+                        alt="image"
                       />
                       <div
-                          className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
-                          data-img-url="assets/img/portfolio/images/StreetPhoto-4.jpg"
+                        className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                        data-img-url="assets/img/portfolio/images/StreetPhoto-3.jpg"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li className="image mb-[40px] float-left w-1/3 pl-[40px] item__">
+                <div className="inner w-full h-auto clear-both float-left overflow-hidden relative">
+                  <div
+                    className="entry tokyo_tm_portfolio_animation_wrap"
+                    data-title="Street Photography"
+                    data-category="Image"
+                  >
+                    <a
+                      className="zoom"
+                      href="assets/img/portfolio/images/StreetPhoto-4.jpg"
+                    >
+                      <img
+                        className="opacity-0 min-w-full"
+                        src="assets/img/thumbs/1-1.jpg"
+                        alt="image"
+                      />
+                      <div
+                        className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"
+                        data-img-url="assets/img/portfolio/images/StreetPhoto-4.jpg"
                       />
                     </a>
                   </div>

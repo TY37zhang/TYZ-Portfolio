@@ -11,7 +11,7 @@ const Intro = () => {
       </div>
       <div className="about_title w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[20px] mb-[30px]">
         <h3 className="text-[22px] font-bold">Tianyin Zhang</h3>
-        <span>Full Stack Web Developer</span>
+        <span>Full Stack Developer</span>
       </div>
       <div className="about_text w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[31px] mb-[30px]">
         <p className="mb-[11px]">
