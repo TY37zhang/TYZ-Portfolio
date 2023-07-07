@@ -21,7 +21,8 @@ const ContactForm = () => {
           "service_r6ayqtt", // service id
           "template_lx8q0ln", // template id
           mailData,
-          "dt1hZWnYthxyXi-Sa" // public api
+          "dt1hZWnYthxyXi-Sa", // public api
+          console.log("mail sent")
         )
         .then(
           (response) => {

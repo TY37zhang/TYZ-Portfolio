@@ -3,7 +3,11 @@ const Intro = () => {
   return (
     <Fragment>
       <div className="top_author_image w-full h-auto clear-both float-left relative mb-[35px]">
-        <img className="min-w-full" src="assets/img/slider/Photo-1.jpeg" alt="image" />
+        <img
+          className="min-w-full"
+          src="assets/img/slider/Photo-1.jpeg"
+          alt="image"
+        />
       </div>
       <div className="about_title w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[20px] mb-[30px]">
         <h3 className="text-[22px] font-bold">Tianyin Zhang</h3>
@@ -94,11 +98,11 @@ const Intro = () => {
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Nationality:
                 </span>
-                <span>USA</span>
+                <span>China</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
-                  Study:
+                  Education:
                 </span>
                 <span>New York University</span>
               </li>
@@ -112,7 +116,7 @@ const Intro = () => {
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Interest:
                 </span>
-                <span>Photography</span>
+                <span>Web Development</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">

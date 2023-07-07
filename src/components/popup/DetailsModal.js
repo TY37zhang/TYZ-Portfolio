@@ -44,34 +44,34 @@ const DetailsModal = () => {
                             {/*  <span>{portfolioDetailsModal.client}</span>*/}
                             {/*</li>*/}
                             <li className="mb-[8px] w-full float-left">
-                                <span className="first font-bold block text-black mb-[3px]">
-                                    Category
-                                </span>
+                <span className="first font-bold block text-black mb-[3px]">
+                  Category
+                </span>
                                 <span>
-                                    <a
-                                        className="text-[#767676] transition-all duration-300 hover:text-black"
-                                        href="#"
-                                    >
-                                        {portfolioDetailsModal.category}
-                                    </a>
-                                </span>
+                  <a
+                      className="text-[#767676] transition-all duration-300 hover:text-black"
+                      href="#"
+                  >
+                    {portfolioDetailsModal.category}
+                  </a>
+                </span>
                             </li>
                             <li className="mb-[8px] w-full float-left">
-                                <span className="first font-bold block text-black mb-[3px]">
-                                    Date
-                                </span>
+                <span className="first font-bold block text-black mb-[3px]">
+                  Date
+                </span>
                                 <span>{portfolioDetailsModal.date}</span>
                             </li>
                             <li className="mb-[8px] w-full float-left">
-                                <span className="first font-bold block text-black mb-[3px]">
-                                    Website
-                                </span>
+                <span className="first font-bold block text-black mb-[3px]">
+                  Website
+                </span>
                                 <span>{portfolioDetailsModal.website}</span>
                             </li>
                             <li className="mb-[8px] w-full float-left">
-                                <span className="first font-bold block text-black mb-[3px]">
-                                    Book Me For a Shoot
-                                </span>
+                <span className="first font-bold block text-black mb-[3px]">
+                  Book Me For a Shoot
+                </span>
                                 <span>{portfolioDetailsModal.url}</span>
                             </li>
                             {/*<li className="w-full float-left">*/}
