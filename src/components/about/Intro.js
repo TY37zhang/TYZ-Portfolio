@@ -58,7 +58,7 @@ const Intro = () => {
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
-                  Address:
+                  Location:
                 </span>
                 <span>San Jose, CA, USA</span>
               </li>
