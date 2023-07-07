@@ -96,9 +96,9 @@ const Intro = () => {
             <ul className="m-0 list-none">
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
-                  Nationality:
+                  Work Authorization:
                 </span>
-                <span>China</span>
+                <span>Able to work within US freely</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
@@ -116,7 +116,7 @@ const Intro = () => {
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
                   Interest:
                 </span>
-                <span>Web Development</span>
+                <span>Full Stack Development</span>
               </li>
               <li className="m-0">
                 <span className="min-w-[100px] float-left mr-[10px] font-bold text-black">
